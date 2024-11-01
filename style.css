@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial , sans-serif;
+    border: border-box;
+
+}
+
+/* navigation bar */
+.navbar{
+    height: 60px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+}
+.nav-icon{
+    height: 25px;
+    width: 25px;
+    background-image: url(menuIcon.png);
+    background-size: cover;
+    margin-right: 25px;
+
+}
+.right-navbar{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: right;
+}
+.nav-button{
+    height: 40px;
+    width: 75px;
+    background-color: #0b57d0;
+    border: 1px solid #0b57d0;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.left-navbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.right-navbar a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+.left-navbar a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+.left-navbar a:hover{
+    text-decoration: underline; 
+}
+.right-navbar a:hover{
+    text-decoration: underline; 
+}
+
+/* main logo of google */
+.main-photo{
+    height: 216px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.main-logo{
+    height: 92px;
+    width: 272px;
+    background-image: url(google.png);
+    background-size: cover;
+}
+
+/* search-bar */
+.search-div{
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search-bar{
+    align-self: center;
+    height:46px;
+    width: 570px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar:hover{
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.search-icon{
+    height: 20px;
+    width: 20px;
+    background-image: url(search.png);
+    background-size: cover;
+}
+.search-box{
+    width: 443.4px;
+}
+.search-area{
+    width: 443.4px;
+    height: 43px;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+.search-mic{
+    height: 30px;
+    width: 20px;
+    background-image: url(mic.png);
+    background-size: cover;
+}
+.search-camera{
+    height: 35px;
+    width: 35px;
+    margin-left: 35px;
+    background-image: url(googlelens.png);
+    background-size: cover;
+    
+}
+
+/* buttons below searchbar */
+.google-buttons{
+    height: 88px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-1{
+    height: 36px;
+    width: 127px;
+    margin-right: 20px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+}
+.button-2{
+    height: 36px;
+    width: 142.1px;
+    margin-left: 20px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+}
+.button-1:hover{
+    border: 1px solid #dedede;
+}
+.button-2:hover{
+    border: 1px solid #dedede;
+}
+
+
+/*language selection var*/
+
+.language-bar{
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.language-bar a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.languages a:hover{
+    text-decoration: underline;
+}
+
+/*footer*/
+.footer{
+    font-size: 14px;
+}
+
+.footbar-1{
+    height: 48.4px;
+    position: fixed;
+    bottom: 46.8px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solod rgba(0, 0, 0, 0.05);
+}
+.footbar-2{
+    height: 46.8px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.country{
+    margin-left: 28px;
+}
+.left-footbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.left-footbar a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.right-footbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.right-footbar a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+.left-footbar a:hover{
+    text-decoration: underline;
+}
+.right-footbar a:hover{
+    text-decoration: underline;
+}
